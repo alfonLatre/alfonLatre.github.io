@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% assign path_parts = page.path | remove_first: "_projects/" | split: "/" %}
+{% assign project_slug = path_parts[0] %}
+{% assign entries = site.projects | where_exp: "e", "e.path contains project_slug" | where_exp: "e", "e.layout == 'entry'" | sort: "date" | reverse %}
+
+<section>
+  <div class="container">
+    <p class="section-subheading" style="margin-bottom: 8px;">
+      <a href="{{ '/' | relative_url }}#projects">
+        <span class="es">← Volver a Proyectos</span>
+        <span class="en">← Back to Projects</span>
+      </a>
+    </p>
+    <h1 class="section-heading">
+      <span class="es">{{ page.title_es }}</span>
+      <span class="en">{{ page.title_en }}</span>
+    </h1>
+    {% if page.tags %}
+    <div class="tag-row" style="justify-content: center; margin-bottom: 32px;">
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+
+    <div style="max-width: 780px; margin: 0 auto;">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+{% if entries.size > 0 %}
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-heading">
+      <span class="es">Entradas del Blog</span>
+      <span class="en">Blog Entries</span>
+    </h2>
+    <div class="timeline">
+      {% for entry in entries %}
+      <div class="timeline-item">
+        <div class="timeline-period">{{ entry.date | date: "%d %B %Y" }}</div>
+        <h4>
+          <a href="{{ entry.url | relative_url }}">
+            <span class="es">{{ entry.title_es | default: entry.title }}</span>
+            <span class="en">{{ entry.title_en | default: entry.title }}</span>
+          </a>
+        </h4>
+        <p>
+          <span class="es">{{ entry.summary_es }}</span>
+          <span class="en">{{ entry.summary_en }}</span>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

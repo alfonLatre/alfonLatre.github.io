@@ -1,0 +1,53 @@
+title: "Tu Nombre"
+description: "Portfolio personal"
+
+# Bilingual site name shown in the header/footer.
+name_es: "Tu Nombre"
+name_en: "Your Name"
+
+social:
+  linkedin: "https://linkedin.com/in/tu-usuario"
+  github: "https://github.com/tu-usuario"
+  email: "tu-email@ejemplo.com"
+
+# Change these once the site has a real GitHub Pages / custom domain URL.
+# url is the domain (e.g. "https://tu-usuario.github.io"), baseurl is the
+# repo sub-path if the site is NOT served from a "<user>.github.io" root repo
+# (e.g. "/nombre-del-repo"). Leave baseurl empty for a user/org root site.
+url: ""
+baseurl: ""
+
+# ----------------------------------------------------------------------------
+# Collections
+# ----------------------------------------------------------------------------
+# Each project gets its own folder under _projects/<slug>/:
+#   _projects/<slug>/index.md        -> project overview page
+#   _projects/<slug>/2026-02-01-*.md -> blog entries for that project
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "entry"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - .claude

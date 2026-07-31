@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-text">
+      <span class="es">© {{ site.time | date: "%Y" }} {{ site.name_es | default: site.title }}. Todos los derechos reservados.</span>
+      <span class="en">© {{ site.time | date: "%Y" }} {{ site.name_en | default: site.title }}. All rights reserved.</span>
+    </p>
+    <div class="footer-social">
+      {% if site.social.linkedin %}<a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+      {% if site.social.github %}<a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    </div>
+  </div>
+</footer>

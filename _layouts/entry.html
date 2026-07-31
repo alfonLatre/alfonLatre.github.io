@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign path_parts = page.path | remove_first: "_projects/" | split: "/" %}
+{% assign project_slug = path_parts[0] %}
+{% assign project = site.projects | where_exp: "p", "p.path contains project_slug" | where_exp: "p", "p.layout == 'project'" | first %}
+
+<section>
+  <div class="container">
+    <p class="section-subheading" style="margin-bottom: 8px;">
+      {% if project %}
+      <a href="{{ project.url | relative_url }}">
+        <span class="es">← Volver a {{ project.title_es }}</span>
+        <span class="en">← Back to {{ project.title_en }}</span>
+      </a>
+      {% endif %}
+    </p>
+    <h1 class="section-heading" style="margin-bottom: 8px;">
+      <span class="es">{{ page.title_es | default: page.title }}</span>
+      <span class="en">{{ page.title_en | default: page.title }}</span>
+    </h1>
+    <p class="section-subheading">{{ page.date | date: "%d %B %Y" }}</p>
+
+    <div style="max-width: 780px; margin: 0 auto;">
+      {{ content }}
+    </div>
+  </div>
+</section>

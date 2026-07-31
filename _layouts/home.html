@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{{ content }}
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-heading">
+      <span class="es">Mis Proyectos</span>
+      <span class="en">My Projects</span>
+    </h2>
+    <p class="section-subheading">
+      <span class="es">
+        Los proyectos están organizados por categorías. Cada tarjeta enlaza a la página propia
+        de ese proyecto, con sus entradas de blog.
+      </span>
+      <span class="en">
+        Projects are organized by category. Each card links to that project's own page, with
+        its blog entries.
+      </span>
+    </p>
+
+    {% assign project_pages = site.projects | where: "layout", "project" %}
+    {% for cat in site.data.categories %}
+      {% assign cat_projects = project_pages | where: "category", cat.slug %}
+      {% if cat_projects.size > 0 %}
+      <div class="project-category">
+        <div class="project-category-header">
+          <h3><span class="es">{{ cat.es }}</span><span class="en">{{ cat.en }}</span></h3>
+          <p>
+            <span class="es">{{ cat.desc_es }}</span>
+            <span class="en">{{ cat.desc_en }}</span>
+          </p>
+        </div>
+        <div class="project-grid">
+          {% for project in cat_projects %}
+          <article class="project-card">
+            <div class="project-card-image">
+              {% if project.image %}
+                <img src="{{ project.image | relative_url }}" alt="">
+              {% else %}
+                <span class="es">Imagen del proyecto</span>
+                <span class="en">Project image</span>
+              {% endif %}
+            </div>
+            <div class="project-card-body">
+              <h4>
+                <span class="es">{{ project.title_es }}</span>
+                <span class="en">{{ project.title_en }}</span>
+              </h4>
+              <p>
+                <span class="es">{{ project.summary_es }}</span>
+                <span class="en">{{ project.summary_en }}</span>
+              </p>
+              {% if project.tags %}
+              <div class="tag-row">
+                {% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+              </div>
+              {% endif %}
+              <a href="{{ project.url | relative_url }}" class="project-card-link">
+                <span class="es">Ver proyecto →</span>
+                <span class="en">View project →</span>
+              </a>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

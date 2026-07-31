@@ -1,0 +1,22 @@
+# Project type sections shown on the Home page.
+# "slug" must match the "category:" value used in each project's index.md front matter.
+# Add a new block here to create a new project-type section; remove one to drop it
+# (existing projects using that slug just won't be shown until re-categorized).
+
+- slug: web-development
+  es: "Desarrollo Web"
+  en: "Web Development"
+  desc_es: "Proyectos relacionados con sitios web y aplicaciones frontend/backend."
+  desc_en: "Projects related to websites and frontend/backend applications."
+
+- slug: data-analysis
+  es: "Análisis de Datos"
+  en: "Data Analysis"
+  desc_es: "Proyectos de análisis, visualización y modelado de datos."
+  desc_en: "Data analysis, visualization, and modeling projects."
+
+- slug: design-prototyping
+  es: "Diseño y Prototipado"
+  en: "Design & Prototyping"
+  desc_es: "Proyectos de diseño de interfaces, prototipos y experimentos visuales."
+  desc_en: "UI design projects, prototypes, and visual experiments."

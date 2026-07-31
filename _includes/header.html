@@ -1,0 +1,33 @@
+<header class="site-header">
+  <nav class="container nav">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <img src="{{ '/assets/images/avatar-placeholder.svg' | relative_url }}"
+           data-es="Avatar" data-en="Avatar" data-attr="alt" alt="Avatar">
+      <span class="es">{{ site.name_es | default: site.title }}</span>
+      <span class="en">{{ site.name_en | default: site.title }}</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>
+        <span class="es">Inicio</span><span class="en">Home</span>
+      </a></li>
+      <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>
+        <span class="es">Sobre Mí</span><span class="en">About Me</span>
+      </a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>
+        <span class="es">Contacto</span><span class="en">Contact</span>
+      </a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+</header>
