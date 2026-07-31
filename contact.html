@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Nombre · Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================= HEADER ============================= -->
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/avatar-placeholder.svg" alt="Avatar" data-es="Avatar" data-en="Avatar" data-attr="alt">
+        <span class="es">Tu Nombre</span>
+        <span class="en">Your Name</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html"><span class="es">Inicio</span><span class="en">Home</span></a></li>
+        <li><a href="about.html"><span class="es">Sobre Mí</span><span class="en">About Me</span></a></li>
+        <li><a href="contact.html" class="active"><span class="es">Contacto</span><span class="en">Contact</span></a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section>
+    <div class="container">
+      <h1 class="section-heading">
+        <span class="es">Contacto</span>
+        <span class="en">Contact</span>
+      </h1>
+      <p class="section-subheading">
+        <span class="es">¿Quieres hablar sobre un proyecto o colaboración? Escríbeme.</span>
+        <span class="en">Want to talk about a project or collaboration? Get in touch.</span>
+      </p>
+
+      <div class="contact-layout">
+        <div>
+          <h2><span class="es">Información</span><span class="en">Information</span></h2>
+          <ul class="contact-info-list">
+            <li>
+              <span class="contact-icon">✉</span>
+              <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
+            </li>
+            <li>
+              <span class="contact-icon">in</span>
+              <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">linkedin.com/in/tu-usuario</a>
+            </li>
+            <li>
+              <span class="contact-icon">gh</span>
+              <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">github.com/tu-usuario</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2><span class="es">Envíame un mensaje</span><span class="en">Send me a message</span></h2>
+          <!--
+            This form has no backend. To make it work you can:
+            - Use a form service like Formspree/Getform (set the action URL they give you), or
+            - Replace the <form> with a simple mailto: link.
+          -->
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">
+                <span class="es">Nombre</span>
+                <span class="en">Name</span>
+              </label>
+              <input type="text" id="name" name="name" required
+                     data-es="Tu nombre" data-en="Your name" data-attr="placeholder"
+                     placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">
+                <span class="es">Correo electrónico</span>
+                <span class="en">Email</span>
+              </label>
+              <input type="email" id="email" name="email" required
+                     data-es="tu@correo.com" data-en="you@email.com" data-attr="placeholder"
+                     placeholder="tu@correo.com">
+            </div>
+            <div class="form-group">
+              <label for="message">
+                <span class="es">Mensaje</span>
+                <span class="en">Message</span>
+              </label>
+              <textarea id="message" name="message" required
+                        data-es="Escribe tu mensaje aquí..." data-en="Write your message here..." data-attr="placeholder"
+                        placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span class="es">Enviar</span>
+              <span class="en">Send</span>
+            </button>
+            <p class="form-note">
+              <span class="es">Este formulario es de ejemplo: conéctalo a un servicio como Formspree o a tu propio backend para que funcione.</span>
+              <span class="en">This form is a placeholder: connect it to a service like Formspree or your own backend to make it functional.</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= FOOTER ============================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text">
+        <span class="es">© 2026 Tu Nombre. Todos los derechos reservados.</span>
+        <span class="en">© 2026 Your Name. All rights reserved.</span>
+      </p>
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
