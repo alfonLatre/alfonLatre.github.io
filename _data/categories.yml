@@ -3,20 +3,47 @@
 # Add a new block here to create a new project-type section; remove one to drop it
 # (existing projects using that slug just won't be shown until re-categorized).
 
-- slug: web-development
-  es: "Desarrollo Web"
-  en: "Web Development"
-  desc_es: "Proyectos relacionados con sitios web y aplicaciones frontend/backend."
-  desc_en: "Projects related to websites and frontend/backend applications."
+- slug: resonance
+  es: "Resonancia electrónica"
+  en: "Electronic Resonance"
+  desc_es: "¿Qué es la resonancia? ¿Cómo funcionan en los circuitos electrónicos?"
+  desc_en: "What is the resonance? How it work in electronic circuits?"
 
-- slug: data-analysis
-  es: "Análisis de Datos"
-  en: "Data Analysis"
-  desc_es: "Proyectos de análisis, visualización y modelado de datos."
-  desc_en: "Data analysis, visualization, and modeling projects."
+- slug: magnetics
+  es: "Materiales magnéticos en electrónica de potencia"
+  en: "Magnetic components in power electrotics"
+  desc_es: "¿Cómo diseñar materiales magnéticos para electrónica de potencia?"
+  desc_en: "How design magnetic components in power electronics?"
 
-- slug: design-prototyping
-  es: "Diseño y Prototipado"
-  en: "Design & Prototyping"
-  desc_es: "Proyectos de diseño de interfaces, prototipos y experimentos visuales."
-  desc_en: "UI design projects, prototypes, and visual experiments."
+- slug: thermal
+  es: "Diseño térmico en electrónica de potencia"
+  en: "Thermal design in power electronics"
+  desc_es: "¿Por qué es necesario contrar la temperatura? ¿Qué pasa cuando sube?"
+  desc_en: "Why is compulsory kwon the temperature? What happens if it increase?"
+
+- slug: emi
+  es: "Interfercias electromagnéticas (EMI)"
+  en: "Electromagnetic Interferences (EMI)"
+  desc_es: "¿Qué son las EMI? ¿Cómo afectan a los sistemas?"
+  desc_en: "What is EMI? How can affect to electronic systems?"
+
+- slug: moon
+  es: "Electrónica en el Espacio"
+  en: "Electronic in the Space"
+  desc_es: "¿Y si el futuro está en el espacio? ¿Qué pasa con la electrónica allí arriba?"
+  desc_en: "What if the future is in space? What happens to electronics up there?"
+
+- slug: computer_vision
+  es: "Visión por computación"
+  en: "Computer vision"
+  desc_es: "¿Qué es la visión por computador? ¿Pará que sirve?"
+  desc_en: "What is computer vision? What is it used for?"
+
+
+  - slug: digital_twins
+  es: "Gemelos digitales"
+  en: "Digital Twins"
+  desc_es: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
+  desc_en: "What is digital twins? What is it used for?"
+
+  
