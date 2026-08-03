@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/design-prototyping/
-category: design-prototyping
-title: "Project Name 3"
-title_es: "Nombre del Proyecto 3"
-title_en: "Project Name 3"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [Figma]
-date: 2026-01-01
+permalink: /projects/digital_twins/
+category: digital_twins
+title: "Digital Twins"
+title_es: "Gemelos digitales"
+title_en: "PDigital Twins"
+summary_es: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
+summary_en: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
+tags: [Simulation, sensors, electronic]
+date: 03/08*2026
 ---
 
 <div class="es" markdown="1">
