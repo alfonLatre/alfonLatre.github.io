@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/web-development/
-category: web-development
-title: "Project Name 1"
-title_es: "Nombre del Proyecto 1"
-title_en: "Project Name 1"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [HTML, CSS, JavaScript]
-date: 2026-01-01
+permalink: /projects/moon/
+category: moon
+title: "Electronic in the Space"
+title_es: "Electrónica en el Espacio"
+title_en: "Electronic in the Space"
+summary_es: "¿Y si el futuro está en el espacio? ¿Qué pasa con la electrónica allí arriba?"
+summary_en: "What if the future is in space? What happens to electronics up there?"
+tags: [Thermal dissipation, electronic design, space]
+date: 03/08/2026
 ---
 
 <div class="es" markdown="1">
