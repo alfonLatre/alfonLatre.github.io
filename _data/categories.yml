@@ -9,7 +9,7 @@
   desc_es: "¿Qué es la resonancia? ¿Cómo funcionan en los circuitos electrónicos?"
   desc_en: "What is the resonance? How it work in electronic circuits?"
 
-- slug: magnetics
+- slug: magnetic
   es: "Materiales magnéticos en electrónica de potencia"
   en: "Magnetic components in power electrotics"
   desc_es: "¿Cómo diseñar materiales magnéticos para electrónica de potencia?"
