@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/design-prototyping/
-category: design-prototyping
-title: "Project Name 3"
-title_es: "Nombre del Proyecto 3"
-title_en: "Project Name 3"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [Figma]
-date: 2026-01-01
+permalink: /projects/magnetic/
+category: magnetic
+title: "Magnetic"
+title_es: "Materiales magnéticos en electrónica de potenci"
+title_en: "Magnetic components in power electrotics"
+summary_es: "Magnetic components in power electrotics"
+summary_en: "How design magnetic components in power electronics?"
+tags: [FEM, experiments, power electronics]
+date: 03/08/2026
 ---
 
 <div class="es" markdown="1">
