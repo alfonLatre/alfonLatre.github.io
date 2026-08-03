@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/web-development/
-category: web-development
-title: "Project Name 1"
-title_es: "Nombre del Proyecto 1"
-title_en: "Project Name 1"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [HTML, CSS, JavaScript]
-date: 2026-01-01
+permalink: /projects/emi/
+category: emi
+title: "Electromagnetic Interferences (EMI)"
+title_es: "Interferencias electromagnéticas (EMI)"
+title_en: "Electromagnetic Interferences (EMI)"
+summary_es: "¿Qué son las EMI? ¿Cómo afectan a los sistemas?"
+summary_en: "What is EMI? How can affect to electronic systems?"
+tags: [Power electronic, electromagnetism]
+date: 03/08/2026
 ---
 
 <div class="es" markdown="1">
