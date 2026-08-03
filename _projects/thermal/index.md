@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/web-development/
-category: web-development
-title: "Project Name 1"
-title_es: "Nombre del Proyecto 1"
-title_en: "Project Name 1"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [HTML, CSS, JavaScript]
-date: 2026-01-01
+permalink: /projects/thermal/
+category: thermal
+title: "Thermal design in power electronics"
+title_es: "Diseño térmico en electrónica de potencia"
+title_en: "Thermal design in power electronics"
+summary_es: "¿Por qué es necesario contrar la temperatura? ¿Qué pasa cuando sube?"
+summary_en: "¿Por qué es necesario contrar la temperatura? ¿Qué pasa cuando sube??"
+tags: [FEM, thermal dissipation, electronic design]
+date: 03/08/2026
 ---
 
 <div class="es" markdown="1">
