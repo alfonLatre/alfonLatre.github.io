@@ -1,14 +1,14 @@
 ---
 layout: project
-permalink: /projects/data-analysis/
-category: data-analysis
-title: "Project Name 2"
-title_es: "Nombre del Proyecto 2"
-title_en: "Project Name 2"
-summary_es: "Descripción breve del proyecto, tecnologías usadas y resultado obtenido."
-summary_en: "Short project description, technologies used, and outcome achieved."
-tags: [Python, Pandas]
-date: 2026-01-01
+permalink: /projects/resonance/
+category: resonance
+title: "Electronic Resonance"
+title_es: "Resonancia electrónica"
+title_en: "Electronic Resonance"
+summary_es: "¿Qué es la resonancia? ¿Cómo funcionan en los circuitos electrónicos?"
+summary_en: "What is the resonance? How it work in electronic circuits?"
+tags: [Electronic simulations, experiments, electronic design]
+date: 03/08/2026
 ---
 
 <div class="es" markdown="1">
