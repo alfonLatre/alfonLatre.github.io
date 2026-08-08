@@ -334,8 +334,7 @@ section {
 }
 
 .project-card-image {
-  aspect-ratio: 16 / 7;
-  max-height: 140px;
+  height: 320px;
   background: var(--bg-alt);
   display: flex;
   align-items: center;
