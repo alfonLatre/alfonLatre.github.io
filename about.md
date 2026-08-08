@@ -7,7 +7,7 @@ permalink: /about/
 <section>
   <div class="container about-page-header">
     <div class="about-page-photo">
-      <img src="{{ '/assets/images/profile-placeholder.svg' | relative_url }}"
+      <img src="{{ '/assets/images/profileImage.jpg' | relative_url }}"
            data-es="Foto de perfil" data-en="Profile photo" data-attr="alt"
            alt="Foto de perfil">
     </div>
@@ -18,14 +18,18 @@ permalink: /about/
       </h1>
       <p class="hero-text">
         <span class="es">
-          Introducción de una o dos frases: quién eres, qué estudias o a qué te dedicas, y dónde.
-          Sustituye este texto por tu propia presentación.
+          Estudiante de Ingeniería Electrónica y Automática en la Universidad de Zaragoza (EINA),
+          con especial interés en electrónica de potencia, sistemas embebidos y programación.
         </span>
         <span class="en">
-          One- or two-sentence introduction: who you are, what you study or do, and where.
-          Replace this text with your own introduction.
+          Electronic and Automation Engineering student at the University of Zaragoza (EINA),
+          with a particular interest in power electronics, embedded systems, and programming.
         </span>
       </p>
+      <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="btn btn-secondary">
+        <span class="es">Ver perfil de LinkedIn →</span>
+        <span class="en">View LinkedIn profile →</span>
+      </a>
     </div>
   </div>
 </section>
@@ -39,20 +43,34 @@ permalink: /about/
     <div style="max-width: 780px; margin: 0 auto;">
 
 <div class="es" markdown="1">
-Primer párrafo de tu biografía. Cuenta tu formación académica, cómo empezaste en tu campo
-y qué te motiva. Sustituye este texto de ejemplo por tu propia historia.
+Soy estudiante de Ingeniería Electrónica en la Universidad de Zaragoza, con gran interés por la
+electrónica, la programación y los sistemas embebidos.
 
-Segundo párrafo: proyectos destacados, intereses de investigación o profesionales, y hacia
-dónde te gustaría dirigir tu carrera.
+Actualmente trabajo en mi Trabajo Fin de Grado en el I3A (Instituto de Investigación en
+Ingeniería de Aragón), centrado en el diseño de un banco de ensayos para la caracterización de
+materiales magnéticos mediante excitación sinusoidal resonante de alta frecuencia (hasta 500 kHz).
+Antes, hice unas prácticas en Intergia Energía Sostenible, donde trabajé con sistemas SCADA,
+comunicaciones industriales y el protocolo OCPP para infraestructura de carga de vehículos
+eléctricos.
+
+Tengo experiencia con proyectos basados en Arduino, desarrollo web con bases de datos, y
+herramientas como MATLAB, Simulink, Altium y KiCad. Soy una persona motivada, responsable y con
+espíritu de trabajo en equipo.
 
 </div>
 
 <div class="en" markdown="1">
-First paragraph of your bio. Talk about your academic background, how you got started in
-your field, and what motivates you. Replace this placeholder text with your own story.
+I'm an Electronic Engineering student at the University of Zaragoza, with a strong interest in
+electronics, programming, and embedded systems.
 
-Second paragraph: highlighted projects, research or professional interests, and where you'd
-like to take your career.
+I'm currently working on my Bachelor's Thesis at I3A (Aragón Institute of Engineering Research),
+focused on designing a test bench for magnetic material characterization using high-frequency
+resonant sinusoidal excitation (up to 500 kHz). Before that, I did an internship at Intergia
+Energía Sostenible, where I worked with SCADA systems, industrial communications, and the OCPP
+protocol for electric vehicle charging infrastructure.
+
+I have experience with Arduino-based projects, web development with databases, and tools such as
+MATLAB, Simulink, Altium, and KiCad. I'm motivated, responsible, and team-oriented.
 
 </div>
     </div>
@@ -62,16 +80,34 @@ like to take your career.
 <section>
   <div class="container">
     <h2 class="section-heading">
-      <span class="es">Habilidades</span>
-      <span class="en">Skills</span>
+      <span class="es">¿Qué Quiero Hacer con Esta Web?</span>
+      <span class="en">What I Want to Do with This Website</span>
     </h2>
-    <div class="skills-grid">
-      <div class="skill-pill">Skill 1</div>
-      <div class="skill-pill">Skill 2</div>
-      <div class="skill-pill">Skill 3</div>
-      <div class="skill-pill">Skill 4</div>
-      <div class="skill-pill">Skill 5</div>
-      <div class="skill-pill">Skill 6</div>
+    <div style="max-width: 780px; margin: 0 auto;">
+
+<div class="es" markdown="1">
+Esta web nace como un espacio personal para documentar los proyectos y temas de electrónica que
+me interesan: resonancia, materiales magnéticos, diseño térmico, EMI, electrónica espacial,
+visión por computador y gemelos digitales, entre otros. Cada proyecto tiene su propia página con
+entradas de blog, donde iré contando el progreso, los problemas que me encuentro y lo que voy
+aprendiendo por el camino — incluido mi Trabajo Fin de Grado.
+
+Mi objetivo es que sirva tanto de cuaderno de bitácora personal como de recurso útil para
+cualquiera que esté interesado en electrónica de potencia y sistemas embebidos.
+
+</div>
+
+<div class="en" markdown="1">
+This website started as a personal space to document the electronics projects and topics I'm
+interested in: resonance, magnetic materials, thermal design, EMI, space electronics, computer
+vision, and digital twins, among others. Each project has its own page with blog entries, where
+I'll share progress, problems I run into, and what I'm learning along the way — including my
+Bachelor's Thesis.
+
+My goal is for it to work both as a personal logbook and as a useful resource for anyone
+interested in power electronics and embedded systems.
+
+</div>
     </div>
   </div>
 </section>
@@ -79,41 +115,83 @@ like to take your career.
 <section class="section-alt">
   <div class="container">
     <h2 class="section-heading">
+      <span class="es">Habilidades</span>
+      <span class="en">Skills</span>
+    </h2>
+    <div class="skills-grid">
+      <div class="skill-pill">Power Electronics Design</div>
+      <div class="skill-pill">Electronic Engineering</div>
+      <div class="skill-pill">MATLAB / Simulink</div>
+      <div class="skill-pill">PCB Design (Altium, KiCad)</div>
+      <div class="skill-pill">Microcontrollers / Arduino</div>
+      <div class="skill-pill">SCADA</div>
+      <div class="skill-pill">Web Development</div>
+      <div class="skill-pill"><span class="es">Trabajo en equipo</span><span class="en">Teamwork</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-heading">
       <span class="es">Formación y Experiencia</span>
       <span class="en">Education & Experience</span>
     </h2>
     <div class="timeline">
       <div class="timeline-item">
-        <div class="timeline-period">2024 — <span class="es">Actualidad</span><span class="en">Present</span></div>
+        <div class="timeline-period">
+          <span class="es">Ene 2026 — Actualidad</span>
+          <span class="en">Jan 2026 — Present</span>
+        </div>
         <h4>
-          <span class="es">Cargo o Programa · Institución</span>
-          <span class="en">Role or Program · Institution</span>
+          <span class="es">Investigador en formación (Trabajo Fin de Grado) · Universidad de Zaragoza (I3A)</span>
+          <span class="en">Undergraduate Research Intern (Bachelor's Thesis) · University of Zaragoza (I3A)</span>
         </h4>
         <p>
-          <span class="es">Descripción breve de esta etapa: responsabilidades, temas de estudio o logros.</span>
-          <span class="en">Short description of this stage: responsibilities, topics of study, or achievements.</span>
+          <span class="es">Diseño y desarrollo de un banco de ensayos para caracterización de materiales magnéticos con excitación sinusoidal resonante de alta frecuencia (hasta 500 kHz), incluyendo circuitos electrónicos, sistemas de medida y modelado en MATLAB/Simulink.</span>
+          <span class="en">Designing and developing a test bench for magnetic material characterization using high-frequency resonant sinusoidal excitation (up to 500 kHz), including electronic circuits, measurement systems, and MATLAB/Simulink modeling.</span>
         </p>
       </div>
       <div class="timeline-item">
-        <div class="timeline-period">2021 — 2024</div>
+        <div class="timeline-period">
+          <span class="es">Jun 2025 — Jul 2025</span>
+          <span class="en">Jun 2025 — Jul 2025</span>
+        </div>
         <h4>
-          <span class="es">Cargo o Programa · Institución</span>
-          <span class="en">Role or Program · Institution</span>
+          <span class="es">Becario · Intergia Energía Sostenible</span>
+          <span class="en">Intern · Intergia Energía Sostenible</span>
         </h4>
         <p>
-          <span class="es">Descripción breve de esta etapa: responsabilidades, temas de estudio o logros.</span>
-          <span class="en">Short description of this stage: responsibilities, topics of study, or achievements.</span>
+          <span class="es">Sistemas de gestión energética y comunicaciones industriales, trabajo con sistemas SCADA, protocolo OCPP para carga de vehículos eléctricos, y primer contacto con control predictivo (MPC) e inteligencia artificial.</span>
+          <span class="en">Energy management systems and industrial communications, working with SCADA systems, the OCPP protocol for EV charging, and a first introduction to Model Predictive Control (MPC) and artificial intelligence.</span>
         </p>
       </div>
       <div class="timeline-item">
-        <div class="timeline-period">2017 — 2021</div>
+        <div class="timeline-period">
+          <span class="es">Sept 2022 — Sept 2026</span>
+          <span class="en">Sep 2022 — Sep 2026</span>
+        </div>
         <h4>
-          <span class="es">Cargo o Programa · Institución</span>
-          <span class="en">Role or Program · Institution</span>
+          <span class="es">Grado en Ingeniería Electrónica y Automática · EINA, Universidad de Zaragoza</span>
+          <span class="en">B.Eng. in Electronic and Automation Engineering · EINA, University of Zaragoza</span>
         </h4>
         <p>
-          <span class="es">Descripción breve de esta etapa: responsabilidades, temas de estudio o logros.</span>
-          <span class="en">Short description of this stage: responsibilities, topics of study, or achievements.</span>
+          <span class="es">Nota media de 8.5 con 10 Matrículas de Honor. Formación en electrónica analógica y digital, sistemas embebidos, control automático y programación.</span>
+          <span class="en">8.5/10 GPA with 10 top honors ("Matrícula de Honor"). Coursework in analog and digital electronics, embedded systems, automatic control, and programming.</span>
+        </p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-period">
+          <span class="es">Sept 2008 — Jun 2021</span>
+          <span class="en">Sep 2008 — Jun 2021</span>
+        </div>
+        <h4>
+          <span class="es">Colegio San Agustín Zaragoza</span>
+          <span class="en">Colegio San Agustín Zaragoza</span>
+        </h4>
+        <p>
+          <span class="es">Educación primaria y secundaria.</span>
+          <span class="en">Primary and secondary education.</span>
         </p>
       </div>
     </div>
