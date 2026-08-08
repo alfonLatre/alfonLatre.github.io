@@ -138,6 +138,31 @@ If you don't have Ruby/Jekyll installed yet, see
 your OS. On Windows, installing "Ruby+Devkit" via
 [RubyInstaller](https://rubyinstaller.org/) is the easiest route.
 
+### A note on `Gemfile.lock` and Linux
+
+GitHub's own Pages build (Settings → Pages → "Deploy from a branch") ignores
+your `Gemfile`/`Gemfile.lock` entirely — it builds with its own pinned,
+Linux-based `github-pages` gem version, so nothing here affects that path.
+
+`Gemfile.lock` only matters if *you* run `bundle install` — locally, in
+GitHub Codespaces, in WSL, or in a custom GitHub Actions workflow. A lockfile
+generated on Windows only records Windows-native gem binaries
+(`x64-mingw-ucrt`), so running `bundle install` against it from any
+Linux-based environment fails with a "does not match your platform" style
+error. That's why `Gemfile.lock` is gitignored here: every environment
+generates its own on first `bundle install`, so a Windows-only lockfile never
+gets carried somewhere it doesn't work.
+
+This repo's local `Gemfile.lock` has also been extended to support Linux too
+(`x86_64-linux`, `aarch64-linux` in addition to Windows), via:
+```bash
+bundle lock --add-platform x86_64-linux aarch64-linux
+```
+So if you ever do want to commit it for fully reproducible builds, it will
+now install correctly on Windows, Linux, and GitHub Actions runners. Re-run
+that command (or just delete `Gemfile.lock` and let it regenerate) any time
+you add/update gems in the `Gemfile`.
+
 ## Deploying to GitHub Pages
 
 1. Create a new GitHub repository and push this folder to it (commit
