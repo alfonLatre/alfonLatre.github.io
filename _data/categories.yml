@@ -39,11 +39,8 @@
   desc_es: "¿Qué es la visión por computador? ¿Pará que sirve?"
   desc_en: "What is computer vision? What is it used for?"
 
-
-  - slug: digital_twins
+- slug: digital_twins
   es: "Gemelos digitales"
   en: "Digital Twins"
   desc_es: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
   desc_en: "What is digital twins? What is it used for?"
-
-  

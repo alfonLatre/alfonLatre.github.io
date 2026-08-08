@@ -8,7 +8,7 @@ title_en: "Electromagnetic Interferences (EMI)"
 summary_es: "¿Qué son las EMI? ¿Cómo afectan a los sistemas?"
 summary_en: "What is EMI? How can affect to electronic systems?"
 tags: [Power electronic, electromagnetism]
-date: 03/08/2026
+date: 2026-08-03
 ---
 
 <div class="es" markdown="1">

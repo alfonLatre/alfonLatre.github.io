@@ -8,7 +8,7 @@ title_en: "Visión por computación"
 summary_es: "¿Qué es la visión por computador? ¿Pará que sirve"
 summary_en: "What is computer vision? What is it used for"
 tags: [Python, C2V, Robotics]
-date: 03/08/2026
+date: 2026-08-03
 ---
 
 <div class="es" markdown="1">

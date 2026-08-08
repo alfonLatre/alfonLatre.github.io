@@ -8,7 +8,7 @@ title_en: "PDigital Twins"
 summary_es: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
 summary_en: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
 tags: [Simulation, sensors, electronic]
-date: 03/08*2026
+date: 2026-08-03
 ---
 
 <div class="es" markdown="1">
