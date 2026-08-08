@@ -86,26 +86,15 @@ MATLAB, Simulink, Altium, and KiCad. I'm motivated, responsible, and team-orient
     <div style="max-width: 780px; margin: 0 auto;">
 
 <div class="es" markdown="1">
-Esta web nace como un espacio personal para documentar los proyectos y temas de electrónica que
-me interesan: resonancia, materiales magnéticos, diseño térmico, EMI, electrónica espacial,
-visión por computador y gemelos digitales, entre otros. Cada proyecto tiene su propia página con
-entradas de blog, donde iré contando el progreso, los problemas que me encuentro y lo que voy
-aprendiendo por el camino — incluido mi Trabajo Fin de Grado.
+Esta web nace como un espacio personal donde explicar temas de mi interés desde cero. Como la resonancia electrónica, materiales magnéticos, diseño térmico, EMI, electrónica espacial, visión por computador y gemelos digitales. Cada proyecto tiene su propia página con entradas de blog donde cada una será un punto de estudio del tema. 
 
-Mi objetivo es que sirva tanto de cuaderno de bitácora personal como de recurso útil para
-cualquiera que esté interesado en electrónica de potencia y sistemas embebidos.
-
+Mi objetivo es que sirva de recurso util para entneder y aprender sobre temas pocos conocidos de ingeniería.
 </div>
 
 <div class="en" markdown="1">
-This website started as a personal space to document the electronics projects and topics I'm
-interested in: resonance, magnetic materials, thermal design, EMI, space electronics, computer
-vision, and digital twins, among others. Each project has its own page with blog entries, where
-I'll share progress, problems I run into, and what I'm learning along the way — including my
-Bachelor's Thesis.
+This website was created as a personal space to explain topics that interest me from scratch — things like electronic resonance, magnetic materials, thermal design, EMI, space electronics, computer vision, and digital twins. Each project has its own page with blog entries, where each one serves as a study point on the topic.
 
-My goal is for it to work both as a personal logbook and as a useful resource for anyone
-interested in power electronics and embedded systems.
+My goal is for this to be a useful resource for understanding and learning about lesser-known topics in engineering.
 
 </div>
     </div>
