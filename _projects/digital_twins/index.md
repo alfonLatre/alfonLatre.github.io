@@ -4,9 +4,9 @@ permalink: /projects/digital_twins/
 category: digital_twins
 title: "Digital Twins"
 title_es: "Gemelos digitales"
-title_en: "PDigital Twins"
+title_en: "Digital Twins"
 summary_es: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
-summary_en: "¿Qué son los gemelos digitales? ¿Para qué se usan?"
+summary_en: "What are digital twins? What are they used for?"
 tags: [Simulation, sensors, electronic]
 date: 2026-08-03
 ---

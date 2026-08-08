@@ -3,8 +3,8 @@ layout: project
 permalink: /projects/computer_vision/
 category: computer_vision
 title: "Computer vision"
-title_es: "Nombre del Proyecto 2"
-title_en: "Visión por computación"
+title_es: "Visión por computación"
+title_en: "Computer Vision"
 summary_es: "¿Qué es la visión por computador? ¿Pará que sirve"
 summary_en: "What is computer vision? What is it used for"
 tags: [Python, C2V, Robotics]
