@@ -8,6 +8,7 @@ title_en: "Electronic in the Space"
 summary_es: "¿Y si el futuro está en el espacio? ¿Qué pasa con la electrónica allí arriba?"
 summary_en: "What if the future is in space? What happens to electronics up there?"
 tags: [Thermal dissipation, electronic design, space]
+image: /assets/images/satelliteFront.jpg
 date: 2026-08-03
 ---
 

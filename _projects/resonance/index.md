@@ -8,6 +8,7 @@ title_en: "Electronic Resonance"
 summary_es: "¿Qué es la resonancia? ¿Cómo funcionan en los circuitos electrónicos?"
 summary_en: "What is the resonance? How it work in electronic circuits?"
 tags: [Electronic simulations, experiments, electronic design]
+image: /assets/images/resonanceFront.png
 date: 2026-08-03
 ---
 

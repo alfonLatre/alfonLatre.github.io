@@ -8,6 +8,7 @@ title_en: "Thermal design in power electronics"
 summary_es: "¿Por qué es necesario contrar la temperatura? ¿Qué pasa cuando sube?"
 summary_en: "Why is it necessary to control the temperature? What happens when it rises?"
 tags: [FEM, thermal dissipation, electronic design]
+image: /assets/images/thermalFront.png
 date: 2026-08-03
 ---
 

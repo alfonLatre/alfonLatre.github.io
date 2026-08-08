@@ -1,6 +1,11 @@
 title: "Alfonso Latre"
 description: "Portfolio personal"
 
+# GitHub Pages' build defaults to "theme: jekyll-theme-primer" when this key
+# is absent, whose own assets/css/style.css collides with (and can silently
+# overwrite) ours. Explicitly disabling it is the documented way to opt out.
+theme: null
+
 # Bilingual site name shown in the header/footer.
 name_es: "Alfonso Latre"
 name_en: "Alfonso Latre"

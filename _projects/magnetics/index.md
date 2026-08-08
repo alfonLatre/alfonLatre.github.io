@@ -8,6 +8,7 @@ title_en: "Magnetic components in power electrotics"
 summary_es: "Magnetic components in power electrotics"
 summary_en: "How design magnetic components in power electronics?"
 tags: [FEM, experiments, power electronics]
+image: /assets/images/magneticFront.png
 date: 2026-08-03
 ---
 
