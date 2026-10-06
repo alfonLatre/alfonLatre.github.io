@@ -32,9 +32,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
- cumplePedro:
-     output: true
-     permalink: /cumplePedro
 
 defaults:
   - scope:
